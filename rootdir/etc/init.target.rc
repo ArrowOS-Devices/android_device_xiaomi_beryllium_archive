@@ -1,2 +1,5 @@
+on early-init
+    setprop ro.vndk.version 27
+
 on init
     mount none /system/etc/audio_platform_info.xml /vendor/etc/audio_platform_info.xml bind

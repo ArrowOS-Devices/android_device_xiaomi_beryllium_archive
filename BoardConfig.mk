@@ -23,3 +23,6 @@ TARGET_KERNEL_CONFIG := beryllium_defconfig
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+
+# Treble
+PRODUCT_EXTRA_VNDK_VERSIONS := 27
