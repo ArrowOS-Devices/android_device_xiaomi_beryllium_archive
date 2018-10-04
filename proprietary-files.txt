@@ -43,6 +43,10 @@ lib/libdpmnsrm.so
 lib/libdpmtcm.so
 -priv-app/dpmserviceapp/dpmserviceapp.apk
 
+# Hostapd
+-app/hostapd/hostapd.apk|6250e7f791747f4f738f6a737050cabac42686e6
+etc/permissions/hostapd.xml|57dc11a9802a2692c3369fc1067df56f38d1fcfe
+
 # IMS
 -app/ims/ims.apk|37d072c898b0fb3cd6436ca62cc9efb0bbe3b125
 -app/uceShimService/uceShimService.apk
