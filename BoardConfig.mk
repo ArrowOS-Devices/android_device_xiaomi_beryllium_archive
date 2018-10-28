@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := beryllium
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
+# Compile with SDClang
+TARGET_USE_SDCLANG := true
+
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := beryllium_defconfig
