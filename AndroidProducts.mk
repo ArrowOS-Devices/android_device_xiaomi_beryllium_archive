@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/arrow_beryllium.mk
+
+COMMON_LUNCH_CHOICES := \
+    arrow_beryllium-userdebug \
+    arrow_beryllium-eng
+
