@@ -37,7 +37,7 @@
          be picked. Anyone who wants to disable the overlay mechanism can set it
          to false.
          -->
-    <bool name="config_enableNetworkLocationOverlay" translatable="false">false</bool>
+    <bool name="config_enableNetworkLocationOverlay" translatable="false">true</bool>
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
