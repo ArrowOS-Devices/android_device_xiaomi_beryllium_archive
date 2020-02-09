@@ -18,5 +18,6 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     arrow_beryllium-userdebug \
+    arrow_beryllium-user \
     arrow_beryllium-eng
 
