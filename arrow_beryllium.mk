@@ -13,7 +13,7 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 PRODUCT_NAME := arrow_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := POCO F1
+PRODUCT_MODEL := POCOPHONE F1
 PRODUCT_MANUFACTURER := Xiaomi
 
 BUILD_FINGERPRINT := "Xiaomi/polaris/polaris:8.0.0/OPR1.170623.032/V9.5.19.0.ODGMIFA:user/release-keys"
