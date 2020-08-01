@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
+DEVICE_MAINTAINER := Ganesh Varma, Kuber Sharma
 PRODUCT_NAME := arrow_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
