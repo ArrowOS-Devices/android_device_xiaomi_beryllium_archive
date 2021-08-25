@@ -9,6 +9,8 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 # Device identifier. This must come after all inclusions.
 DEVICE_MAINTAINER := Ganesh Varma, kubersharma001, palaych
 PRODUCT_NAME := arrow_beryllium
